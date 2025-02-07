@@ -12,7 +12,6 @@ class ColorController extends Controller
         $colors=Color::all();
         return view('admin.colors.index',compact('colors'));
     }
-    
     public function create(){
         return view('admin.colors.create');
     }
